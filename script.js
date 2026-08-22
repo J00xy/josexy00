@@ -48,9 +48,7 @@ function formatUSD(value) {
 }
 
 function initCart() {
-  document.querySelectorAll('.btn-card-add').forEach(button => {
-    button.addEventListener('click', () => addToCart(button));
-  });
+  
 
   const sendCartBtn = document.getElementById('btnSendCart');
   if (sendCartBtn) sendCartBtn.addEventListener('click', sendCartWhatsApp);
