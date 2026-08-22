@@ -53,7 +53,7 @@ function initCart() {
   const sendCartBtn = document.getElementById('btnSendCart');
   if (sendCartBtn) sendCartBtn.addEventListener('click', sendCartWhatsApp);
 
-  renderCart();
+   renderCart();
 }
 
 function addToCart(button, deviantName) {
